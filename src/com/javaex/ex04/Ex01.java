@@ -13,6 +13,7 @@ public class Ex01 {
 		Point p02 = new Point(3, 13);
 		Point p03 = new Point(7, 17);
 
+		//	섞어쓰기 한 이유: 기존에 잘 이용해오던 부모클래스로부터 구현받고 새 메소드를 추가하는 게 안전하기 때문에 자식 클래스로 곧장 가게 안 하고 섞어 쓴다
 		List<Point> pList = new ArrayList<Point>();
 		pList.add(p01); // 주소를 추가하는 과정
 		pList.add(p02);
